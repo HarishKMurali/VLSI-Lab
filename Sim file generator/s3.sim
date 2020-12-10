@@ -1,0 +1,21 @@
+p B vdd out0 2 4
+p A vdd out0 2 4
+n B gnd 0 2 4
+n A 0 out0 2 4
+p out0 vdd out1 2 4
+n out0 gnd out1 2 4
+p out1 vdd out2 2 4
+n out1 gnd out2 2 4
+p D vdd out3 2 4
+p C vdd out3 2 4
+n D gnd 1 2 4
+n C 1 out3 2 4
+p out3 vdd out4 2 4
+n out3 gnd out4 2 4
+p out4 vdd 2 2 4
+p out2 2 out5 2 4
+n out4 gnd out5 2 4
+n out2 gnd out5 2 4
+p out5 vdd out6 2 4
+n out5 gnd out6 2 4
+
